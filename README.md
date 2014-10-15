@@ -7,6 +7,8 @@ ACTON RocketSkates™, the world’s first smart electric skates, are designed t
 
 This document introduces how to integrate ACTON RocketSkates SDK into your Android app project.
 
+本文档中文版: https://github.com/ActonInc/RocketSkates-Android-SDK/tree/cn
+
 ## Requirements
 
 ACTON RocketSkates uses Bluetooth Low Energy to communicate with smart phones. In order to utilize this SDK, your Android project's target API level must be equal to or higher than 18 (Android 4.3).
