@@ -22,42 +22,36 @@ ACTON 风火轮通过低功耗蓝牙 (Bluetooth Low Energy) 与智能设备通�
 
 ## SDK 安装和使用
 
-1. 从下载最新版 SDK
+1. 从 [发布页面](https://github.com/ActonInc/RocketSkates-Android-SDK/releases) 下载最新版 SDK，或者克隆此 repo。
 
-1. Download the latest version of ACTON RocketSkates SDK from our [release page](https://github.com/ActonInc/RocketSkates-Android-SDK/releases), or simply clone this project.
-
-2. Copy `Acton_R_SDK.jar` into your project's 'libs' folder.
+2. 将 `Acton_R_SDK.jar` 放进 Android 项目的 'libs' 文件夹。
 
  ![project-libs](https://github.com/ActonInc/RocketSkates-Android-SDK/raw/master/img/project-libs.png)
 
-3. Open your project's Properties->Java Build Path. Click on 'Libraries' tab and open 'Android Private Libraries', make sure that `Acton_R_SDK.jar` is there. 
+3. 打开项目属性面板 (Properties->Java Build Path)。 点击 'Libraries'，展开 'Android Private Libraries', 确认其中包含 `Acton_R_SDK.jar`。
 
  ![java-build-path](https://github.com/ActonInc/RocketSkates-Android-SDK/raw/master/img/java-build-path.png)
 
-After these steps, your app would be able to use APIs provided by ACTON RocketSkates SDK.
+完成以上步骤后，您就可以使用 ACTON 风火轮 SDK 提供的接口了。
 
-## Samples
-
-We created 3 sample projects for you to start with:
+## 示例
 
 1. [Hello R Skates!](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/master/samples/HelloRSkates)
- Scan for RocketSkates and connect to them.
+ 搜索并连接附近的 ACTON 风火轮。
 
  ![sample1](https://github.com/ActonInc/RocketSkates-Android-SDK/raw/master/img/sample1.png)
 
 2. [Skate Control](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/master/samples/SkateControl)
- Retrieve RocketSkates' real-time status, and change their mode.
+ 获取风火轮的实时状态，切换运行模式。
  
  ![sample2](https://github.com/ActonInc/RocketSkates-Android-SDK/raw/master/img/sample2.png)
 
 3. [RemoteControl](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/master/samples/RemoteControl)
- Remote-control your RocketSkates.
+ 使用手机遥控风火轮
 
  ![sample3](https://github.com/ActonInc/RocketSkates-Android-SDK/raw/master/img/sample3.png)
 
-You can import these project into your ADT or Android Studio workspace, or simply copy some of their code into your project.
-
-## Javadoc
-Detailed Javadoc can be found in 'javadoc' folder.
+## Javadoc (英文)
+在 'javadoc' 文件夹中，有本 SDK 的完整 Javadoc。
 
 ## FAQ
