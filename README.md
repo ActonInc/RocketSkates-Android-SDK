@@ -1,24 +1,28 @@
 ![Skates](http://static.wixstatic.com/media/04a4fc_bbd24139a63647388379754366962dec.jpg_srz_p_980_460_75_22_0.50_1.20_0.00_jpg_srz)
 
 
-# ACTON RocketSkates SDK - Android Developer Guide
+# ACTON 风火轮 Android SDK 开发指南
 
-ACTON RocketSkates™, the world’s first smart electric skates, are designed to be lightweight, hands-free and tons of fun. RocketSkates are also packed with smart technology and they can connect with apps on users’ smartphones via Bluetooth.
+ACTON 风火轮是由 ACTON 公司自主设计研发的全球第一款智能可穿戴电动鞋。风火轮使用时无需特殊鞋子，无需任何遥控设备。内置高效锂电、电机及智能控制系统，用户前倾加速，后倾减速及制动，并有多种滑行模式可选。
 
-This document introduces how to integrate ACTON RocketSkates SDK into your Android app project.
+通过移动端 app 相连，用户可实时查看风火轮状态，跟踪滑行路径，更有基于地理位置的现实互动游戏。
 
-## Requirements
+本文档介绍了如何在您的 Android app 中使用 ACTON 风火轮 SDK。
 
-ACTON RocketSkates uses Bluetooth Low Energy to communicate with smart phones. In order to utilize this SDK, your Android project's target API level must be equal to or higher than 18 (Android 4.3).
+## 系统需求
 
-Also, please make sure your `AndroidManifest.xml` has the following definitions inside `<manifest>`:
+ACTON 风火轮通过低功耗蓝牙 (Bluetooth Low Energy) 与智能设备通讯。本 SDK 仅支持 Android API Level 18 (Android 4.3 'Jelly Bean') 或更高版本。
+
+使用本 SDK 时，请在 `AndroidManifest.xml` 的 `<manifest>` 一节中添加以下内容：
 
 	<uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> 
 
-ACTON RocketSkates SDK is compatible with ADT and Android Studio.
+本 SDK 兼容 ADT 和 Android Studio。
 
-## SDK Installation
+## SDK 安装和使用
+
+1. 从下载最新版 SDK
 
 1. Download the latest version of ACTON RocketSkates SDK from our [release page](https://github.com/ActonInc/RocketSkates-Android-SDK/releases), or simply clone this project.
 
