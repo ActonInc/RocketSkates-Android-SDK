@@ -36,17 +36,17 @@ After these steps, your app would be able to use APIs provided by ACTON RocketSk
 
 We created 3 sample projects for you to start with:
 
-1. [Hello R Skates!](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/samples/HelloRSkates)
+1. [Hello R Skates!](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/master/samples/HelloRSkates)
  Scan for RocketSkates and connect to them.
 
  ![sample1](https://github.com/ActonInc/RocketSkates-Android-SDK/raw/master/img/sample1.png)
 
-2. [Skate Control](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/samples/SkateControl)
+2. [Skate Control](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/master/samples/SkateControl)
  Retrieve RocketSkates' real-time status, and change their mode.
  
  ![sample2](https://github.com/ActonInc/RocketSkates-Android-SDK/raw/master/img/sample2.png)
 
-3. [RemoteControl](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/samples/RemoteControl)
+3. [RemoteControl](https://github.com/ActonInc/RocketSkates-Android-SDK/tree/master/samples/RemoteControl)
  Remote-control your RocketSkates.
 
  ![sample3](https://github.com/ActonInc/RocketSkates-Android-SDK/raw/master/img/sample3.png)
